@@ -19,7 +19,7 @@ const Testimonials = () => {
                   visible: { opacity: 1, x: 0 },
                 }}
                 >
-                    <p className="font-playfair font-semibold text-4xl mb-5 text-yellow">
+                    <p className="font-playfair font-semibold text-4xl mb-5 text-lavender">
                        TESTIMONIALS
                     </p>
                     <LineGradient width="mx-auto w-2/4" />
@@ -31,7 +31,7 @@ const Testimonials = () => {
                 {/* TESTIMONIALS */}
                 <div className="md:flex md:justify-between gap-8">
                     <motion.div
-                    className={`bg-blue ${testimonialStyles} before:content-person1`}
+                    className={`bg-gray ${testimonialStyles} before:content-person1`}
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
@@ -48,7 +48,7 @@ const Testimonials = () => {
                     </motion.div>
 
                     <motion.div
-                    className={`bg-red ${testimonialStyles} before:content-person2`}
+                    className={`bg-darkPurple ${testimonialStyles} before:content-person2`}
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
@@ -65,7 +65,7 @@ const Testimonials = () => {
                     </motion.div>
 
                     <motion.div
-                    className={`bg-yellow ${testimonialStyles} before:content-person3`}
+                    className={`bg-lavender ${testimonialStyles} before:content-person3`}
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}

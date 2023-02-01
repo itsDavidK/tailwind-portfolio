@@ -17,7 +17,7 @@ const Landing = ({ setSelectedPage }) => {
         {isAboveLarge ? (
           <div
             className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20
-            before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1]"
+            before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-gray before:z-[-1]"
           >
             <img
               alt="profile"
@@ -69,8 +69,8 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           <a
-            className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
-              hover:bg-blue hover:text-white transition duration-500"
+            className="bg-gradient-purple text-specialBlack rounded-sm py-3 px-7 font-semibold
+              hover:bg-gray hover:text-white transition duration-500"
             target="_blank"
             rel="noreferrer"
             href={resume}
@@ -78,11 +78,11 @@ const Landing = ({ setSelectedPage }) => {
             My Resume
           </a>
           <AnchorLink
-            className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
+            className="rounded-r-sm bg-gradient-purple py-0.5 pr-0.5"
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >
-            <div className="bg-deep-blue hover:text-yellow transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
+            <div className="bg-specialBlack hover:text-lavender transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
               Let's talk.
             </div>
           </AnchorLink>

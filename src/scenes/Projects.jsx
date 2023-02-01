@@ -17,7 +17,7 @@ const projectVariant = {
 
 const Project = ({ title }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-    bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
+    bg-lightGray z-30 flex flex-col justify-center items-center text-center p-16 text-specialBlack`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
 
   return (
@@ -51,7 +51,7 @@ const Projects = () => {
       >
         <div>
           <p className="font-playfair font-semibold text-4xl">
-            <span className="text-yellow">PRO</span>JECTS
+            <span className="text-lavender">PRO</span>JECTS
           </p>
           <div className="flex justify-center mt-5">
             <LineGradient width="w-2/3" />
@@ -75,7 +75,7 @@ const Projects = () => {
         >
           {/* ROW 1 */}
           <div
-            className="flex justify-center text-center items-center p-10 bg-red
+            className="flex justify-center text-center items-center p-10 bg-darkPurple
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             BEAUTIFUL USER INTERFACES
@@ -96,7 +96,7 @@ const Projects = () => {
           <Project title="Project 6" />
           <Project title="Project 7" />
           <div
-            className="flex justify-center text-center items-center p-10 bg-blue
+            className="flex justify-center text-center items-center p-10 bg-gray
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             SMOOTH USER EXPERIENCE

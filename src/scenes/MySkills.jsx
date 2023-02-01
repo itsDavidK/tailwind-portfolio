@@ -22,7 +22,7 @@ const MySkills = () => {
                 }}
                 >
                     <p className="font-playfair font-semibold text-4xl mb-5">
-                        MY <span className="text-yellow">SKILLS</span>
+                        MY <span className="text-lavender">SKILLS</span>
                     </p>
                     <LineGradient width="w-1/3" />
                     <p className="mt-10 mb-7">
@@ -34,7 +34,7 @@ const MySkills = () => {
                     {isAboveMediumScreens ? (
                         <div
                         className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
-                        before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
+                        before:w-full before:h-full before:border-2 before:border-gray before:z-[-1]"
                       >
                         <img
                           alt="skills"
@@ -72,7 +72,7 @@ const MySkills = () => {
                                 <p className="font-playfair font-semibold text-5xl">01</p>
                                 <p className="font-playfair font-semibold text-3xl mt-3">Experience</p>
                             </div>
-                            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
+                            <div className="w-1/2 md:w-3/4 h-32 bg-gray absolute right-0 top-0 z-[-1]" />
                         </div>
                         <p className="mt-5">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quam, nobis inventore sunt necessitatibus quae fugiat facere, obcaecati sed rerum aut ipsum illum animi ab maiores provident tenetur optio numquam.
@@ -96,7 +96,7 @@ const MySkills = () => {
                                 <p className="font-playfair font-semibold text-5xl">02</p>
                                 <p className="font-playfair font-semibold text-3xl mt-3">Innovative</p>
                             </div>
-                            <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
+                            <div className="w-1/2 md:w-3/4 h-32 bg-darkPurple absolute right-0 top-0 z-[-1]" />
                         </div>
                         <p className="mt-5">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quam, nobis inventore sunt necessitatibus quae fugiat facere, obcaecati sed rerum aut ipsum illum animi ab maiores provident tenetur optio numquam.
@@ -120,7 +120,7 @@ const MySkills = () => {
                                 <p className="font-playfair font-semibold text-5xl">03</p>
                                 <p className="font-playfair font-semibold text-3xl mt-3">Imaginative</p>
                             </div>
-                            <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
+                            <div className="w-1/2 md:w-3/4 h-32 bg-lavender absolute right-0 top-0 z-[-1]" />
                         </div>
                         <p className="mt-5">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quam, nobis inventore sunt necessitatibus quae fugiat facere, obcaecati sed rerum aut ipsum illum animi ab maiores provident tenetur optio numquam.
