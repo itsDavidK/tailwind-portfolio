@@ -26,7 +26,7 @@ const MySkills = () => {
                     </p>
                     <LineGradient width="w-1/3" />
                     <p className="mt-10 mb-7">
-                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis cumque culpa accusamus incidunt, ipsa temporibus, ullam amet dolore magni ex atque aperiam vero alias doloribus aliquam dignissimos eos corporis earum!
+                         These are a list of skills I have picked up while working on personal projects aswell during my time studying at college, and at a full-stack web developement boot camp.
                     </p>
                 </motion.div>
 
@@ -69,13 +69,13 @@ const MySkills = () => {
                     >
                         <div className="relative h-32">
                             <div className="z-10">
-                                <p className="font-playfair font-semibold text-5xl">01</p>
-                                <p className="font-playfair font-semibold text-3xl mt-3">Experience</p>
+                                <p className="font-playfair font-semibold text-5xl">Front-End</p>
+                                <p className="font-playfair font-semibold text-3xl mt-3">Developer</p>
                             </div>
                             <div className="w-1/2 md:w-3/4 h-32 bg-gray absolute right-0 top-0 z-[-1]" />
                         </div>
                         <p className="mt-5">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quam, nobis inventore sunt necessitatibus quae fugiat facere, obcaecati sed rerum aut ipsum illum animi ab maiores provident tenetur optio numquam.
+                            HTML &bull; CSS &bull; JavaScript &bull; JSON &bull; Node.js &bull; MySQL &bull; React &bull; Bootstrap &bull; Tailwind &bull; Figma &bull; jQuery &bull; Handlebars &bull; UI/UX
                         </p>
                     </motion.div>
 
@@ -93,13 +93,13 @@ const MySkills = () => {
                     >
                         <div className="relative h-32">
                             <div className="z-10">
-                                <p className="font-playfair font-semibold text-5xl">02</p>
-                                <p className="font-playfair font-semibold text-3xl mt-3">Innovative</p>
+                                <p className="font-playfair font-semibold text-5xl">Back-End</p>
+                                <p className="font-playfair font-semibold text-3xl mt-3">Developer</p>
                             </div>
                             <div className="w-1/2 md:w-3/4 h-32 bg-darkPurple absolute right-0 top-0 z-[-1]" />
                         </div>
                         <p className="mt-5">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quam, nobis inventore sunt necessitatibus quae fugiat facere, obcaecati sed rerum aut ipsum illum animi ab maiores provident tenetur optio numquam.
+                            Express.js &bull; Node.js &bull; MySQL &bull; MongoDB &bull; Socket.io &bull; Java &bull; C &bull; C++ &bull; OOP &bull; Netlify &bull; Heroku
                         </p>
                     </motion.div>
 
@@ -117,13 +117,13 @@ const MySkills = () => {
                     >
                         <div className="relative h-32">
                             <div className="z-10">
-                                <p className="font-playfair font-semibold text-5xl">03</p>
-                                <p className="font-playfair font-semibold text-3xl mt-3">Imaginative</p>
+                                <p className="font-playfair font-semibold text-5xl">Extra</p>
+                                <p className="font-playfair font-semibold text-3xl mt-3">Skills</p>
                             </div>
                             <div className="w-1/2 md:w-3/4 h-32 bg-lavender absolute right-0 top-0 z-[-1]" />
                         </div>
                         <p className="mt-5">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quam, nobis inventore sunt necessitatibus quae fugiat facere, obcaecati sed rerum aut ipsum illum animi ab maiores provident tenetur optio numquam.
+                            Git &bull; Vegas Pro &bull; Ableton 11 &bull; Audacity &bull; PhotoShop &bull; Aseprite &bull; Figma
                         </p>
                     </motion.div>
             </div>
