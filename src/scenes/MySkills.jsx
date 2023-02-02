@@ -26,7 +26,7 @@ const MySkills = () => {
                     </p>
                     <LineGradient width="w-1/3" />
                     <p className="mt-10 mb-7">
-                         These are a list of skills I have picked up while working on personal projects aswell during my time studying at college, and at a full-stack web developement boot camp.
+                         These are a list of skills I have picked up while working on personal projects as well during my time studying at college, and at a full-stack web development boot camp.
                     </p>
                 </motion.div>
 
