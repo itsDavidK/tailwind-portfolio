@@ -21,11 +21,6 @@ module.exports = {
         playFair: ["Playfair Display", "serif"],
         opensand: ["Open Sans", "sans-seriff"]
       },
-      content: {
-        person1: "url('./assets/person-1.png')",
-        person2: "url('./assets/person-2.png')",
-        person3: "url('./assets/person-3.png')",
-      }
     },
     screens: {
       xs: "480px",
