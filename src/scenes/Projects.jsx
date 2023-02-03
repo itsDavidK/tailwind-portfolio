@@ -58,9 +58,6 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-          fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-          purus nec eget eleifend ut elit.
         </p>
       </motion.div>
 
@@ -74,33 +71,21 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           {/* ROW 1 */}
-          <div
-            className="flex justify-center text-center items-center p-10 bg-darkPurple
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
-          >
-            BEAUTIFUL USER INTERFACES
-          </div>
           <a href="https://www.instagram.com"
           target="_blank"
           rel="noreferrer">
-          <Project title="Project 1" />
+          <Project title="Shrub Club" />
           </a>
-          <Project title="Project 2" />
+          <Project title="Music Quiz" /> 
+          <Project title="Minimal Portfolio" />
 
           {/* ROW 2 */}
-          <Project title="Project 3" />
-          <Project title="Project 4" />
-          <Project title="Project 5" />
+          <Project title="Pineapple Motivator" />
+          <Project title="Weather Forecast" />
+          <Project title="Troll Quiz" />
 
           {/* ROW 3 */}
-          <Project title="Project 6" />
-          <Project title="Project 7" />
-          <div
-            className="flex justify-center text-center items-center p-10 bg-gray
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
-          >
-            SMOOTH USER EXPERIENCE
-          </div>
+          <Project title="Surprisebox Simulator" />
         </motion.div>
       </div>
     </section>
