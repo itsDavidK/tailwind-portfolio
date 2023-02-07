@@ -54,8 +54,7 @@ const Project2 = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
+          Choose which song has more views, play alone or play with friends! Created using Socket.io, Kareoke API, and Simple YouTube Search API.
         </p>
         <a href="https://www.instagram.com"
           target="_blank"
@@ -83,8 +82,7 @@ const Project3 = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
+          A portfolio built using React. Experimented with styling using parallax scroll. Minimal design and with great lighthouse score.
         </p>
         <a href="https://www.instagram.com"
           target="_blank"
@@ -111,9 +109,8 @@ const Project4 = ({ title }) => {
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
-        <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
+        <p className="mt-1">
+          A Web application made for people addicted to YouTube. The user gains experience when finishing a task and can watch a YouTube video using YouTube's API when they level up. 
         </p>
         <a href="https://www.instagram.com"
           target="_blank"
@@ -141,8 +138,7 @@ const Project5 = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
+          An web application that uses the openweathermap API to get a 5 day weather forecast in any given city using localstorage to save user's searches.
         </p>
         <a href="https://www.instagram.com"
           target="_blank"
@@ -170,8 +166,7 @@ const Project6 = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
+          A short silly quiz with a highscore system created using JavaScript.
         </p>
         <a href="https://www.instagram.com"
           target="_blank"
@@ -198,9 +193,8 @@ const Project7 = ({ title }) => {
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
-        <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
+        <p className="mt-4">
+          A Surprise Box simulator to help people addicted to loot box mechanics to visualize the amount of money wasted from the famous MMO "Maplestory".
         </p>
         <a href="https://www.instagram.com"
           target="_blank"
