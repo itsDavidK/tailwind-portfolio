@@ -98,6 +98,7 @@ const Contact = () => {
                                 </p>
                             )}
 
+                            <div>
                             <input 
                             className="w-full bg-gray font-semibold placeholder-opaque-black p-3 mt-5"
                             type="email"
@@ -108,6 +109,7 @@ const Contact = () => {
                                 pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
                             })}
                             />
+                            </div>
                                 {errors.email && (
                                 <p className="text-lavender mt-1">
                                     {errors.email.type === 'required' && "Please put your email."}
@@ -115,6 +117,7 @@ const Contact = () => {
                                 </p>
                             )}
 
+                            <div>
                             <textarea
                             className="w-full bg-gray font-semibold placeholder-opaque-black p-3 mt-5"
                             name="comments"
@@ -127,6 +130,7 @@ const Contact = () => {
                                 maxLength:2000
                             })}
                             />
+                            </div>
                                 {errors.message && (
                                 <p className="text-lavender mt-1">
                                     {errors.message.type === 'required' && "Please leave a message."}
