@@ -67,20 +67,30 @@ const Contact = () => {
                     }}
                     >
                         <form
+                        name="contact v1"
                         target="_blank"
+                        method="post"
+                        data-netlify="true"
                         onSubmit={onSubmit}
-                        action="https:/formsubmit.co/330fce197db5d95f5b7701410a4bcd82"
-                        method="POST"
                         >
                             <input 
-                            className="w-full bg-gray font-semibold placeholder-opaque-black p-3"
-                            type="text"
-                            placeholder="NAME"
-                            {...register("name", {
-                                required: true,
-                                maxLength: 100,
-                            })}
+                            type="hidden"
+                            name="form-name"
+                            value="contact v1"
                             />
+                                <div>
+                                    <input 
+                                    className="w-full bg-gray font-semibold placeholder-opaque-black p-3"
+                                    type="text" 
+                                    name="first-name"
+                                    placeholder="NAME"
+                                    {...register("name", {
+                                        required: true,
+                                        maxLength: 100,
+                                    })} 
+                                    />
+                                </div>
+
                             {errors.name && (
                                 <p className="text-lavender mt-1">
                                     {errors.name.type === 'required' && "Please leave your name."}
@@ -90,7 +100,8 @@ const Contact = () => {
 
                             <input 
                             className="w-full bg-gray font-semibold placeholder-opaque-black p-3 mt-5"
-                            type="text"
+                            type="email"
+                            name="email"
                             placeholder="EMAIL"
                             {...register("email", {
                                 required: true,
@@ -106,6 +117,7 @@ const Contact = () => {
 
                             <textarea
                             className="w-full bg-gray font-semibold placeholder-opaque-black p-3 mt-5"
+                            name="comments"
                             type="text"
                             placeholder="MESSAGE"
                             rows="4"
