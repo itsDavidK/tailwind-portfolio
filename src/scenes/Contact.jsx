@@ -68,7 +68,6 @@ const Contact = () => {
                     >
                         <form
                         name="contact v1"
-                        target="_blank"
                         method="post"
                         data-netlify="true"
                         onSubmit={onSubmit}
