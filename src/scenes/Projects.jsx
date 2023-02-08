@@ -56,12 +56,12 @@ const Project2 = ({ title }) => {
         <p className="mt-7">
           Choose which song has more views, play alone or play with friends! Created using Socket.io, Kareoke API, and Simple YouTube Search API.
         </p>
-        <a href="https://www.instagram.com"
+        <a href="https://musicguava.herokuapp.com/"
           target="_blank"
           rel="noreferrer">
             <img style={{position: 'absolute', bottom: 0, left: 100}} src={newTab} alt="Website"/>
           </a>
-          <a href="https://github.com/jordan-koichiro-johnson/shrub-club"
+          <a href="https://github.com/itsDavidK/music-quiz-game"
           target="_blank"
           rel="noreferrer">
             <img style={{position: 'absolute', bottom: 3, right: 100}} src={github} alt="GitHub Repo"/>
@@ -84,12 +84,12 @@ const Project3 = ({ title }) => {
         <p className="mt-7">
           A portfolio built using React. Experimented with styling using parallax scroll. Minimal design and with great lighthouse score.
         </p>
-        <a href="https://www.instagram.com"
+        <a href="https://davidmnml.netlify.app/"
           target="_blank"
           rel="noreferrer">
             <img style={{position: 'absolute', bottom: 0, left: 100}} src={newTab} alt="Website"/>
           </a>
-          <a href="https://github.com/jordan-koichiro-johnson/shrub-club"
+          <a href="https://github.com/itsDavidK/better-portfolio"
           target="_blank"
           rel="noreferrer">
             <img style={{position: 'absolute', bottom: 3, right: 100}} src={github} alt="GitHub Repo"/>
@@ -112,12 +112,12 @@ const Project4 = ({ title }) => {
         <p className="mt-1">
           A Web application made for people addicted to YouTube. The user gains experience when finishing a task and can watch a YouTube video using YouTube's API when they level up. 
         </p>
-        <a href="https://www.instagram.com"
+        <a href="https://diangigrich.github.io/PineappleMotivator/pages/userForm.html"
           target="_blank"
           rel="noreferrer">
             <img style={{position: 'absolute', bottom: 0, left: 100}} src={newTab} alt="Website"/>
           </a>
-          <a href="https://github.com/jordan-koichiro-johnson/shrub-club"
+          <a href="https://github.com/DianGigrich/PineappleMotivator"
           target="_blank"
           rel="noreferrer">
             <img style={{position: 'absolute', bottom: 3, right: 100}} src={github} alt="GitHub Repo"/>
@@ -140,12 +140,12 @@ const Project5 = ({ title }) => {
         <p className="mt-7">
           An web application that uses the openweathermap API to get a 5 day weather forecast in any given city using localstorage to save user's searches.
         </p>
-        <a href="https://www.instagram.com"
+        <a href="https://itsdavidk.github.io/weather-dashboard/"
           target="_blank"
           rel="noreferrer">
             <img style={{position: 'absolute', bottom: 0, left: 100}} src={newTab} alt="Website"/>
           </a>
-          <a href="https://github.com/jordan-koichiro-johnson/shrub-club"
+          <a href="https://github.com/itsDavidK/weather-dashboard"
           target="_blank"
           rel="noreferrer">
             <img style={{position: 'absolute', bottom: 3, right: 100}} src={github} alt="GitHub Repo"/>
@@ -168,12 +168,12 @@ const Project6 = ({ title }) => {
         <p className="mt-7">
           A short silly quiz with a highscore system created using JavaScript.
         </p>
-        <a href="https://www.instagram.com"
+        <a href="https://itsdavidk.github.io/quiz-challenge"
           target="_blank"
           rel="noreferrer">
             <img style={{position: 'absolute', bottom: 0, left: 100}} src={newTab} alt="Website"/>
           </a>
-          <a href="https://github.com/jordan-koichiro-johnson/shrub-club"
+          <a href="https://github.com/itsDavidK/quiz-challenge"
           target="_blank"
           rel="noreferrer">
             <img style={{position: 'absolute', bottom: 3, right: 100}} src={github} alt="GitHub Repo"/>
@@ -196,16 +196,8 @@ const Project7 = ({ title }) => {
         <p className="mt-4">
           A Surprise Box simulator to help people addicted to loot box mechanics to visualize the amount of money wasted from the famous MMO "Maplestory".
         </p>
-        <a href="https://www.instagram.com"
-          target="_blank"
-          rel="noreferrer">
             <img style={{position: 'absolute', bottom: 0, left: 100}} src={newTab} alt="Website"/>
-          </a>
-          <a href="https://github.com/jordan-koichiro-johnson/shrub-club"
-          target="_blank"
-          rel="noreferrer">
             <img style={{position: 'absolute', bottom: 3, right: 100}} src={github} alt="GitHub Repo"/>
-          </a>
       </div>
       <img src={require(`../assets/${projectTitle}.jpeg`)} alt={projectTitle} />
     </motion.div>

@@ -52,7 +52,7 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus rem, necessitatibus voluptatibus consequatur quibusdam eius saepe veniam assumenda nihil harum provident expedita excepturi magnam quaerat, ab doloribus vitae facere adipisci.
+          As a Full-Stack Web Developer with a passion for creating user-friendly and engaging projects, I strive to deliver innovative solutions to meet clients' needs. My expertise in computer science, honed through my education at Edmonds College and graduation from University of Washington's Full-Stack Web Development boot camp, allows me to bring a unique perspective to each project I undertake. In my free time, I enjoy pursuing interests such as sports, gaming, hiking, reading, psychology, and theology, which I find to be integral in shaping my overall professional development.
           </p>
         </motion.div>
 
