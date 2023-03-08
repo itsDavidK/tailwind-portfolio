@@ -166,14 +166,14 @@ const Project6 = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-          A short silly quiz with a highscore system created using JavaScript.
+          A admin dashboard made to track sales, growth charts, products, customers, transactions, and a map where the sales are from. The program was built using the MERN stack.
         </p>
-        <a href="https://itsdavidk.github.io/quiz-challenge"
+        <a href="https://admin-frontend-v1uw.onrender.com"
           target="_blank"
           rel="noreferrer">
             <img style={{position: 'absolute', bottom: 0, left: 100}} src={newTab} alt="Website"/>
           </a>
-          <a href="https://github.com/itsDavidK/quiz-challenge"
+          <a href="https://github.com/itsDavidK/admin-dashboard"
           target="_blank"
           rel="noreferrer">
             <img style={{position: 'absolute', bottom: 3, right: 100}} src={github} alt="GitHub Repo"/>
@@ -249,7 +249,7 @@ const Projects = () => {
           {/* ROW 2 */}
           <Project4 title="Pineapple Motivator" />
           <Project5 title="Weather Forecast" />
-          <Project6 title="Troll Quiz" />
+          <Project6 title="Admin Dashboard" />
 
           {/* ROW 3 */}
           <Project7 title="Surprisebox Simulator" />
