@@ -2,6 +2,7 @@ import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
 import newTab from "../assets/newtab.png";
 import github from "../assets/blackgithub.png";
+import youtube from "../assets/youtube.png";
 const container = {
   hidden: {},
   visible: {
@@ -31,12 +32,19 @@ const Project1 = ({ title }) => {
         <a href="https://shrubclub.netlify.app/"
           target="_blank"
           rel="noreferrer">
-            <img style={{position: 'absolute', bottom: 0, left: 100}} src={newTab} alt="Website"/>
+            <img style={{position: 'absolute', bottom: 0, left: 50}} src={newTab} alt="Website"/>
           </a>
+
+          <a href="https://youtu.be/sZukmd-Fids"
+          target="_blank"
+          rel="noreferrer">
+            <img style={{position: 'absolute', bottom: 0, left: 190}} src={youtube} alt="Showcase Video"/>
+          </a>
+
           <a href="https://github.com/jordan-koichiro-johnson/shrub-club"
           target="_blank"
           rel="noreferrer">
-            <img style={{position: 'absolute', bottom: 3, right: 100}} src={github} alt="GitHub Repo"/>
+            <img style={{position: 'absolute', bottom: 3, right: 50}} src={github} alt="GitHub Repo"/>
           </a>
       </div>
       <img src={require(`../assets/${projectTitle}.jpeg`)} alt={projectTitle} />
@@ -59,12 +67,19 @@ const Project2 = ({ title }) => {
         <a href="https://musicguava.herokuapp.com/"
           target="_blank"
           rel="noreferrer">
-            <img style={{position: 'absolute', bottom: 0, left: 100}} src={newTab} alt="Website"/>
+            <img style={{position: 'absolute', bottom: 0, left: 50}} src={newTab} alt="Website"/>
           </a>
+
+          <a href="https://youtu.be/4Q-JHZSsLZA"
+          target="_blank"
+          rel="noreferrer">
+            <img style={{position: 'absolute', bottom: 0, left: 190}} src={youtube} alt="Showcase Video"/>
+          </a>
+
           <a href="https://github.com/itsDavidK/music-quiz-game"
           target="_blank"
           rel="noreferrer">
-            <img style={{position: 'absolute', bottom: 3, right: 100}} src={github} alt="GitHub Repo"/>
+            <img style={{position: 'absolute', bottom: 3, right: 50}} src={github} alt="GitHub Repo"/>
           </a>
       </div>
       <img src={require(`../assets/${projectTitle}.jpeg`)} alt={projectTitle} />
@@ -87,12 +102,19 @@ const Project3 = ({ title }) => {
         <a href="https://davidmnml.netlify.app/"
           target="_blank"
           rel="noreferrer">
-            <img style={{position: 'absolute', bottom: 0, left: 100}} src={newTab} alt="Website"/>
+            <img style={{position: 'absolute', bottom: 0, left: 50}} src={newTab} alt="Website"/>
           </a>
+
+          <a href="https://youtu.be/8CWkZ4ybxh8"
+          target="_blank"
+          rel="noreferrer">
+            <img style={{position: 'absolute', bottom: 0, left: 190}} src={youtube} alt="Showcase Video"/>
+          </a>
+
           <a href="https://github.com/itsDavidK/better-portfolio"
           target="_blank"
           rel="noreferrer">
-            <img style={{position: 'absolute', bottom: 3, right: 100}} src={github} alt="GitHub Repo"/>
+            <img style={{position: 'absolute', bottom: 3, right: 50}} src={github} alt="GitHub Repo"/>
           </a>
       </div>
       <img src={require(`../assets/${projectTitle}.jpeg`)} alt={projectTitle} />
@@ -115,12 +137,19 @@ const Project4 = ({ title }) => {
         <a href="https://diangigrich.github.io/PineappleMotivator/pages/userForm.html"
           target="_blank"
           rel="noreferrer">
-            <img style={{position: 'absolute', bottom: 0, left: 100}} src={newTab} alt="Website"/>
+            <img style={{position: 'absolute', bottom: 0, left: 50}} src={newTab} alt="Website"/>
           </a>
+
+          <a href="https://youtu.be/3j3IRg-7fuY"
+          target="_blank"
+          rel="noreferrer">
+            <img style={{position: 'absolute', bottom: 0, left: 190}} src={youtube} alt="Showcase Video"/>
+          </a>
+
           <a href="https://github.com/DianGigrich/PineappleMotivator"
           target="_blank"
           rel="noreferrer">
-            <img style={{position: 'absolute', bottom: 3, right: 100}} src={github} alt="GitHub Repo"/>
+            <img style={{position: 'absolute', bottom: 3, right: 50}} src={github} alt="GitHub Repo"/>
           </a>
       </div>
       <img src={require(`../assets/${projectTitle}.jpeg`)} alt={projectTitle} />
